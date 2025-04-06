@@ -1,0 +1,9 @@
+name: CardsSMP
+version: '1.0-SNAPSHOT'
+main: net.override.cardsSMP.CardsSMP
+api-version: '1.21'
+commands:
+  givecard:
+    description: Gives a specified card to the player.
+    usage: /givecard <CardType> <Parameter>
+

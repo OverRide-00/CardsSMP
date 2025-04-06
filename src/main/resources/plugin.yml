@@ -1,0 +1,4 @@
+name: CardsSMP
+version: '1.0-SNAPSHOT'
+main: net.override.cardsSMP.CardsSMP
+api-version: '1.21'

@@ -1,3 +1,5 @@
+package net.override.cardsSMP.api.cardtypes.Enums
+
 enum class RankTypes(val description: String, val rarityValue: Int) {
     Common("A basic card", 1),
     UnCommon("A slightly rarer card", 2),

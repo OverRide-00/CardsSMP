@@ -1,4 +1,4 @@
-package net.override.cardsSMP.api.SC
+package net.override.cardsSMP.api.cardtypes.Constructors.SC
 
 import net.override.cardsSMP.CardsSMP
 import org.bukkit.Material

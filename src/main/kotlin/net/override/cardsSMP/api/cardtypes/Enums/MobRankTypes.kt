@@ -1,3 +1,5 @@
+package net.override.cardsSMP.api.cardtypes.Enums
+
 enum class MobRankTypes(val rank: RankTypes) {
     // Basic mobs
     Zombie(RankTypes.Common),

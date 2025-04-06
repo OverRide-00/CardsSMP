@@ -1,10 +1,9 @@
-package net.override.cardsSMP.api.cardtypes
+package net.override.cardsSMP.api.cardtypes.Constructors.EC
 
 import net.override.cardsSMP.CardsSMP
 import org.bukkit.Material
 import org.bukkit.NamespacedKey
 import org.bukkit.inventory.ItemStack
-import org.bukkit.inventory.meta.ItemMeta
 import org.bukkit.persistence.PersistentDataType
 import java.util.*
 

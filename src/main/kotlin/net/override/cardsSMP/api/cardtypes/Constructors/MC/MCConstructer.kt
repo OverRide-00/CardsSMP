@@ -1,4 +1,4 @@
-package net.override.cardsSMP.api.MC
+package net.override.cardsSMP.api.cardtypes.Constructors.MC
 
 import net.override.cardsSMP.CardsSMP.Companion.getInstance
 import net.override.cardsSMP.api.FormatUtil

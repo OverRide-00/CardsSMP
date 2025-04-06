@@ -1,9 +1,10 @@
 package net.override.cardsSMP.api
 
 import net.override.cardsSMP.CardsSMP.Companion.getInstance
-import net.override.cardsSMP.api.cardtypes.ExperienceCardItem
-import net.override.cardsSMP.api.cardtypes.MobCardItem
-import net.override.cardsSMP.api.cardtypes.SkillCardItem
+import net.override.cardsSMP.api.cardtypes.CardItems.ExperienceCardItem
+import net.override.cardsSMP.api.cardtypes.CardItems.MobCardItem
+import net.override.cardsSMP.api.cardtypes.CardItems.SkillCardItem
+import net.override.cardsSMP.api.cardtypes.Enums.CardType
 import org.bukkit.NamespacedKey
 import org.bukkit.inventory.ItemStack
 import org.bukkit.persistence.PersistentDataType

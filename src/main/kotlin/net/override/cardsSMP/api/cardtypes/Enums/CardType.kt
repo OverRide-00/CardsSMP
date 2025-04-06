@@ -1,4 +1,4 @@
-package net.override.cardsSMP.api
+package net.override.cardsSMP.api.cardtypes.Enums
 
 enum class CardType(val description: String) {
     MC("Mob Card"),

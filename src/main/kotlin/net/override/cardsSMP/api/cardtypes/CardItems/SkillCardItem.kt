@@ -1,9 +1,9 @@
-package net.override.cardsSMP.api.cardtypes
+package net.override.cardsSMP.api.cardtypes.CardItems
 
 import net.override.cardsSMP.CardsSMP.Companion.getInstance
 import net.override.cardsSMP.api.CardItem
-import net.override.cardsSMP.api.CardType
-import net.override.cardsSMP.api.SC.SCConstructor  // Corrected class name
+import net.override.cardsSMP.api.cardtypes.Enums.CardType
+import net.override.cardsSMP.api.cardtypes.Constructors.SC.SCConstructor  // Corrected class name
 import org.bukkit.NamespacedKey
 import org.bukkit.inventory.ItemStack
 import org.bukkit.persistence.PersistentDataType

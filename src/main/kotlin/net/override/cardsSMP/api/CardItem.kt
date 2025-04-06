@@ -4,6 +4,7 @@ import net.override.cardsSMP.CardsSMP.Companion.getInstance
 import net.override.cardsSMP.api.cardtypes.CardItems.ExperienceCardItem
 import net.override.cardsSMP.api.cardtypes.CardItems.MobCardItem
 import net.override.cardsSMP.api.cardtypes.CardItems.SkillCardItem
+import net.override.cardsSMP.api.cardtypes.CardItems.TradeCardItem
 import net.override.cardsSMP.api.cardtypes.Enums.CardType
 import org.bukkit.NamespacedKey
 import org.bukkit.inventory.ItemStack
@@ -47,7 +48,8 @@ open class CardItem(val id: UUID, val type: CardType) {
             return when (type) {
                 CardType.MC -> MobCardItem.fromItemStack(item) // Handle MobCardItem specifically
                 CardType.SC -> SkillCardItem.fromItemStack(item) // Handle SkillCardItem specifically
-                CardType.EC -> ExperienceCardItem.fromItemStack(item) // Handle TradeCardItem specifically
+                CardType.EC -> ExperienceCardItem.fromItemStack(item) // Handle ExperienceCardItem specifically
+                CardType.TC -> TradeCardItem.fromItemStack(item) // Handle TradeCardItem specifically
                 else -> CardItem(id, type) // Fallback to base class
             }
         }

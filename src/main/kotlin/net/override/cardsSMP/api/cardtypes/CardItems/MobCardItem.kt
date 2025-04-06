@@ -4,13 +4,14 @@ import net.override.cardsSMP.CardsSMP.Companion.getInstance
 import net.override.cardsSMP.api.CardItem
 import net.override.cardsSMP.api.cardtypes.Enums.CardType
 import net.override.cardsSMP.api.cardtypes.Constructors.MC.MCConstructer
+import net.override.cardsSMP.api.cardtypes.Enums.RankTypes
 import org.bukkit.NamespacedKey
 import org.bukkit.inventory.ItemStack
 import org.bukkit.persistence.PersistentDataType
 import java.util.*
 
 
-class MobCardItem(id: UUID, val rank: String, val entityName: String) : CardItem(id, CardType.MC) {
+class MobCardItem(id: UUID, val rank: String, val entityName: RankTypes) : CardItem(id, CardType.MC) {
 
     constructor(rank: String, entityName: String) : this(UUID.randomUUID(), rank, entityName)
 
